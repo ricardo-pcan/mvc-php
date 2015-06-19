@@ -1,0 +1,12 @@
+{
+	"require" : {
+		"klein/klein": "^2.1",
+		"league/plates": "3.*"
+	},
+	"autoload" : {
+		"files": [
+			"config/routes.php"
+		]
+	}
+
+}
