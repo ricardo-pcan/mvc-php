@@ -6,5 +6,9 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    $vendorDir . '/kriswallsmith/assetic/src/functions.php',
+    $baseDir . '/lib/ripper/utils.php',
+    $baseDir . '/config/connection.php',
+    $baseDir . '/app/controllers/homeController.php',
     $baseDir . '/config/routes.php',
 );
