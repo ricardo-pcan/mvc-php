@@ -17,7 +17,7 @@
         echo "fallo la conexion";
         return;
       }
-      self::$_db->set_charset(DB_CHARSET);
+      self::$_db->set_charset($data['charset']);
     }
     public static function getConnection()
     {
